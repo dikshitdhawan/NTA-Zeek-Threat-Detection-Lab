@@ -225,3 +225,9 @@ Planned improvements:
 ## Conclusion
 
 This project demonstrates a practical approach to network traffic analysis using open-source tools. The completed SSH brute force case study shows how packet captures, Zeek logs, Wireshark validation, Python detection logic, and incident documentation can be combined into a SOC-style investigation workflow.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) file for details.

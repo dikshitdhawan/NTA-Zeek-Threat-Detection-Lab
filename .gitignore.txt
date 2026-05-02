@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Do not ignore lab evidence by default
+# Uncomment only if PCAP files become too large for GitHub
+# *.pcap
+# *.pcapng
