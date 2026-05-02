@@ -78,13 +78,12 @@ The first completed case study focuses on detecting SSH brute force activity.
 
 | Evidence | Location |
 |---|---|
-| PCAP File | `PCAP/brute_force/bruteforce.pcap` |
-| Zeek Logs | `Zeek-Logs/brute_force/` |
-| Detection Script | `Detection-Scripts/brute_force_detect.py` |
-| Incident Report | `Incident-Reports/brute_force.md` |
-| Technical Analysis | `Analysis/brute_force_analysis.md` |
-| Screenshots | `Screenshots/brute_force/` |
-
+| PCAP File | [`bruteforce.pcap`](PCAP/brute_force/bruteforce.pcap) |
+| Zeek Logs | [`Zeek-Logs/brute_force/`](Zeek-Logs/brute_force/) |
+| Detection Script | [`brute_force_detect.py`](Detection-Scripts/brute_force_detect.py) |
+| Incident Report | [`brute_force.md`](Incident-Reports/brute_force.md) |
+| Technical Analysis | [`brute_force_analysis.md`](Analysis/brute_force_analysis.md) |
+| Screenshots | [`Screenshots/brute_force/`](Screenshots/brute_force/) |
 ---
 
 ## Investigation Approach
@@ -134,6 +133,18 @@ A Python script was created to parse Zeek `conn.log`, count SSH connections, and
 - Wireshark validated repeated SSH communication.
 - The detection script successfully generated an alert.
 - The analysis was performed without assuming the attacker IP initially; the suspicious host was identified from Zeek connection patterns and later validated against the lab machines.
+
+---
+
+## Incident Report
+
+The full incident report is available here:
+
+[`Incident-Reports/brute_force.md`](Incident-Reports/brute_force.md)
+
+The detailed technical analysis is available here:
+
+[`Analysis/brute_force_analysis.md`](Analysis/brute_force_analysis.md)
 
 ---
 
