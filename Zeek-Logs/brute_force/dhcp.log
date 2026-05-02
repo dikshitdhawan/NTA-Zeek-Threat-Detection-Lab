@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2026-05-01-11-11-17
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1777614065.140870	CCrLKN21JjcqwInDJ8	192.168.16.130	192.168.16.254	00:0c:29:2b:a6:3f	Dhawan	Dhawan	localdomain	-	192.168.16.130	1800.000000	-	-	REQUEST,ACK	0.000185
+1777614070.730141	CyJyzv4AqvFiNu2w6l	192.168.16.131	192.168.16.254	00:0c:29:f1:48:60	-	-	localdomain	-	192.168.16.131	1800.000000	-	-	ACK	0.000000
+1777614078.004897	C6j2Dh2JKy8E8oOobl	192.168.16.132	192.168.16.254	00:0c:29:37:76:d6	kali	-	localdomain	-	192.168.16.132	1800.000000	-	-	REQUEST,ACK	0.000100
+#close	2026-05-01-11-14-09

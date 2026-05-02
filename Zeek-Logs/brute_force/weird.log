@@ -1,0 +1,61 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2026-05-01-11-03-30
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1777613610.226276	C9NtylzOZo9KlnKi	192.168.16.131	41119	192.168.16.1	53	bad_UDP_checksum	-	F	zeek	UDP
+1777613610.226762	COFCub2PAcgXhOVaXc	192.168.16.131	40660	192.168.16.1	53	bad_TCP_checksum	-	F	zeek	TCP
+1777613611.265709	COFCub2PAcgXhOVaXc	192.168.16.131	40660	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613626.305752	CHwJos1ljS2i3BNJ5j	192.168.16.131	51718	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613641.281795	CXBriF2EylSKQECDnl	192.168.16.131	50878	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613651.329736	C3lKnn3XdX0n9KGiKd	192.168.16.131	49110	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613666.305986	CZnYT64XiWQAtrwvXf	192.168.16.131	58790	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613676.289739	C3d1Me2p6LQODPsEh7	192.168.16.131	50780	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613691.329759	CIlQFI2atCjZw8Lujh	192.168.16.131	46666	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613701.377942	CpqnZN1PMHJTnijl86	192.168.16.131	41522	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613716.354016	Cl0ANEGy4ZMWKDdVe	192.168.16.131	35334	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613726.337898	C0Fyb52NsmRRUVwn2i	192.168.16.131	50682	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613741.377851	C6NZqh1A3NgjBPjuTf	192.168.16.131	38150	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613756.353868	C5bO8cr98Y5nrpCI2	192.168.16.131	53958	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613766.401722	CU6uxA1pWAvq0ymzo5	192.168.16.131	45206	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613781.377924	Cw71pB1mvyPR8E53U7	192.168.16.131	36610	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613791.425717	CxYkCY2gBW6qbmPl4f	192.168.16.131	37994	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613806.466015	CAj9kc45TOfMMAkFta	192.168.16.131	52568	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613816.449723	CuCqKP2Rpyj5zpDtEg	192.168.16.131	35998	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613831.489908	CuCOGMLNsP4Ygw5Ce	192.168.16.131	54830	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613841.474002	CQNmyuWCci9rxejG	192.168.16.131	41878	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613856.513890	CmRZAd3vj4s0UBOYT6	192.168.16.131	42104	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613866.498479	Cv3s6m4ZJ7eWD0YDB5	192.168.16.131	48184	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613881.537739	CcsgYk2Dh1M2YCmdG3	192.168.16.131	49108	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613891.521712	C9RSdja5VpNRKNfDg	192.168.16.131	54516	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613906.561777	C5vaT845yE3KKSlc22	192.168.16.131	42680	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613916.546006	Cb4hk02rlxjXPg1W8g	192.168.16.131	43218	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613931.585729	CLM5uT2enTM8gYZ2x5	192.168.16.131	53552	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613941.569886	CLjw5k3u46anQf0jf4	192.168.16.131	50836	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613956.609777	CXqVif1LNqXNaNgNIi	192.168.16.131	46872	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613966.849702	CJVJ9c1Y8R9jHT7xxa	192.168.16.131	42890	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613982.401726	CrR64m2OXbAmWm9sq2	192.168.16.131	38800	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777613992.641729	CE2MGJ1FRN4bvxaXK3	192.168.16.131	51092	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614002.881912	CUOGlo27kX7d2rwxj8	192.168.16.131	46700	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614018.369741	Cpfzq5zyB7vpjczLb	192.168.16.131	36892	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614033.857720	CtgpQd21xC3p4uBhJ1	192.168.16.131	49320	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614044.097775	CqbUdh2MAzvwH6jNyc	192.168.16.131	50466	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614054.401826	CA9Aar3qsJ2oTff9Rb	192.168.16.131	35572	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614069.889730	CgS1xx33mO6n64Dble	192.168.16.131	40490	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614080.129728	CWUcBK36BzhlDrvHP6	192.168.16.131	37924	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614095.617725	CzF4g544KivypBvzAi	192.168.16.131	43474	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614111.105718	CzgHaOaPggGVCaQHd	192.168.16.131	42106	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614121.409732	CTff4B1plPAFBo9xWd	192.168.16.131	38660	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614136.705758	CGlPh843EIUbEVfWW9	192.168.16.131	40254	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614146.753828	CAZ7kBBjQsvrK4W8j	192.168.16.131	46944	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614161.729727	CBXtKdHcdnM49ioIj	192.168.16.131	36584	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614176.769739	CM82WU3mTZK3O7efRg	192.168.16.131	33990	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614186.753835	CKCXba3S9pevw4M2D2	192.168.16.131	60020	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614201.793723	CsIfTtFeICjnblNCl	192.168.16.131	33368	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614211.777762	C71dDf4AEaYr8RyDvl	192.168.16.131	35168	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614226.817827	CVTpfu0enNGsDq36b	192.168.16.131	48498	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+1777614236.801728	C06gvK6VRvOxuDGfi	192.168.16.131	33728	192.168.16.1	53	active_connection_reuse	-	F	zeek	TCP
+#close	2026-05-01-11-14-09
