@@ -17,7 +17,7 @@ Unusual SSH activity was observed during network traffic analysis. A single sour
 - Destination IP: **192.168.16.130**
 - Targeted service: **SSH**
 - Destination port: **22**
-- Approximate connection attempts: **8000+**
+- Detected SSH connection attempts: **8045**
 
 ---
 
@@ -46,3 +46,4 @@ The activity was confirmed as an **SSH brute force attack** originating from **1
 - Apply account lockout or rate-limiting controls
 - Restrict SSH access using firewall rules
 - Monitor repeated authentication attempts through network logs
+

@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Tue May 26 02:08:32 2026 as: /usr/lib/nmap/nmap -Pn -sS -p- -T4 --reason -oN port_scan_full_tcp.txt 192.168.16.130
+Nmap scan report for 192.168.16.130
+Host is up, received arp-response (0.00059s latency).
+Not shown: 65524 closed tcp ports (reset)
+PORT      STATE SERVICE      REASON
+22/tcp    open  ssh          syn-ack ttl 128
+135/tcp   open  msrpc        syn-ack ttl 128
+139/tcp   open  netbios-ssn  syn-ack ttl 128
+445/tcp   open  microsoft-ds syn-ack ttl 128
+5040/tcp  open  unknown      syn-ack ttl 128
+49664/tcp open  unknown      syn-ack ttl 128
+49665/tcp open  unknown      syn-ack ttl 128
+49666/tcp open  unknown      syn-ack ttl 128
+49667/tcp open  unknown      syn-ack ttl 128
+49668/tcp open  unknown      syn-ack ttl 128
+49669/tcp open  unknown      syn-ack ttl 128
+MAC Address: 00:0C:29:2B:A6:3F (VMware)
+
+# Nmap done at Tue May 26 02:19:44 2026 -- 1 IP address (1 host up) scanned in 672.68 seconds

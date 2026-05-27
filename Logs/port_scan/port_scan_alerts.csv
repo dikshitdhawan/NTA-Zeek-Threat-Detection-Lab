@@ -1,0 +1,2 @@
+severity,suspected_scanner_ip,target_ip,unique_ports_in_peak_window,connections_in_peak_window,threshold,rolling_window_seconds,peak_window_start,peak_window_end,peak_window_duration_seconds,peak_window_connection_states,total_unique_ports_observed,total_connections_observed,full_observation_duration_seconds,mitre_attack
+High,192.168.16.132,192.168.16.130,65535,65747,50,1800,2026-05-26 11:37:27,2026-05-26 11:49:45,738.27,"REJ=65620, S0=112, RSTO=15",65535,65747,738.27,T1046 - Network Service Discovery

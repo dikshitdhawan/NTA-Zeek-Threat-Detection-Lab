@@ -1,0 +1,23 @@
+==============================================================================
+[ALERT] TCP Port Scan Activity Detected
+==============================================================================
+Severity                    : High
+Suspected Scanner IP        : 192.168.16.132
+Target IP                   : 192.168.16.130
+Unique Ports in Peak Window : 65535
+Connections in Peak Window  : 65747
+Configured Threshold        : 50 unique ports
+Rolling Analysis Window     : 1800 seconds
+Peak Window Start           : 2026-05-26 11:37:27
+Peak Window End             : 2026-05-26 11:49:45
+Peak Window Duration        : 738.27 seconds
+Peak Window States          : REJ=65620, S0=112, RSTO=15
+Sample Probed Ports         : 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+Total Unique Ports Observed : 65535
+Total Connections Observed  : 65747
+Full Observation Duration   : 738.27 seconds
+Detection Basis             : High unique TCP destination-port count
+MITRE ATT&CK                : T1046 - Network Service Discovery
+==============================================================================
+
+[INFO] Alert evidence exported to: port_scan_alerts.csv

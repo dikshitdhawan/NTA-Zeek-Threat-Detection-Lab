@@ -122,7 +122,7 @@ Observed alert:
 | Target IP | 192.168.16.130 |
 | Targeted Service | SSH |
 | Destination Port | 22 |
-| Approximate Attempts | 8000+ |
+| Detected SSH Connection Attempts | 8045 |
 | Evidence | Zeek logs, PCAP, Wireshark, Python detection script |
 
 ---
@@ -151,3 +151,4 @@ The conclusion was based on Zeek connection logs, service-specific port analysis
 - Restrict SSH access using firewall rules.
 - Monitor repeated SSH connection attempts.
 - Review authentication logs on the target system for failed login attempts.
+
